@@ -1,0 +1,15 @@
+#about-section .about-me{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: var(--font-family-body);
+  text-align: justify;
+  color: var(--font-color-black3);
+  word-break: break-word;
+  word-wrap: break-word;
+  line-height: 1.5em;
+}
+
+#about-section .about-me .paragraph{
+  display: block; 
+}

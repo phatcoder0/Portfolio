@@ -1,0 +1,53 @@
+
+#tech-tools-section .container.d-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.7rem;
+  row-gap: 0.8rem;
+}
+
+/* Techtool Card */
+#tech-tools-section .container .card{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 8px 1px;
+  padding: 7px 8px;
+}
+
+/* Techtool Icon */
+#tech-tools-section .container .card .icon{
+  max-width: 2.5rem;
+  max-height: 3rem;
+  border-radius: 5px;
+}
+
+/* Techtool Name */
+#tech-tools-section .container .card .name{
+  font-family: var(--font-family-heading);
+  font-size: var(--medium-font-size);
+  color: var(--font-color-black1);
+  margin-bottom: 1px;
+}
+
+/* Techtool Mastery(show when hover the techtool card) */
+#tech-tools-section .container .card .mastery{
+  transform: scale(0);
+  font-family: var(--font-family-body);
+  font-size: 11px;
+  color: var(--font-color-black4)
+}
+
+#tech-tools-section .container .card:hover .mastery{
+  animation: scale-up 0.3s forwards;
+}
+
+@keyframes scale-up{
+  to{
+
+    transform: scale(1);
+  }
+}

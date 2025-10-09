@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Website</title>
+      <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/profile-card.css">
+    <link rel="stylesheet" href="styles/sections-style/about-section.css">
+    <link rel="stylesheet" href="styles/sections-style/experience-section.css">
+    <link rel="stylesheet" href="styles/sections-style/techtools.css">
+    <link rel="stylesheet" href="styles/sections-style/projects-section.css">
+    <link rel="stylesheet" href="styles/sections-style/contact-section.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <!-- Javascript Libraries-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  </head>
+  <body>
+    <!-- Read The README.md file for more information and hosting tutorial -->
+    <div class="main-wrapper">
+      <div class="contents-container">
+      <!-- profile-card-container -->
+      <div class="profile-cards-container d-flex">
+            <!-- To update the contents, go to the "data" folder.
+                 The content is rendered dynamically in "render-content.js" inside the "script" folder. -->
+      </div>
+
+      <!-- Sections-container -->
+      <div class="sections-container">
+        <section id="about-section">
+          <h4 class="heading">ABOUT</h4>
+          <p class="about-me">
+            <!-- To update the contents, go to the "data" folder.
+                 The content is rendered dynamically in "render-content.js" inside the "script" folder. -->
+          </p>
+        </section>
+
+        <section id="experience-section">
+          <h4 class="heading">EXPERIENCE</h4>
+          <div class="experience-cards-container">
+             <!-- To update the contents, go to the "data" folder.
+                  The content is rendered dynamically in "render-content.js" inside the "script" folder. -->
+          </div>
+        </section>
+       
+        <section id="tech-tools-section">
+          <h4 class="heading">TECHSTACK & TOOLS</h4>
+          <div class="techtool-cards-container container d-grid">
+              <!-- To update the contents, go to the "data" folder.
+                   The content is rendered dynamically in "render-content.js" inside the "script" folder. -->
+          </div>
+        </section>
+
+        <section id="projects-section">
+          <h4 class="heading">PROJECTS</h4>
+            <div class="button slide-to-left-btn">
+              <img class="slide-arrow-icon" src="images-and-icons/icons/slide-button.png" alt="slide-arrow-icon">
+            </div>
+            <div class="button slide-to-right-btn">
+              <img class="slide-arrow-icon" src="images-and-icons/icons/slide-button.png" alt="slide-arrow-icon">
+            </div>     
+          <div class="projects-container">
+            <div class="projects-slider d-flex">
+              <!-- To update the contents, go to the "data" folder.
+                   The content is rendered dynamically in "render-content.js" inside the "script" folder. -->
+            </div>
+          </div>
+      
+        </section>
+
+        <section id="contact-section">
+          <!-- This contact form is functional. 
+             Sign up at EmailJS.com and obtain your Public Key, Service ID, and Template ID. 
+             Then, add them to "personal-data.js" inside the "data" folder. -->
+          <h4 class="heading">CONTACT</h4>
+          <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>     
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>      
+            <button class="submit-button" type="submit">Submit</button>
+        </form>
+        
+        </section>
+      </div>
+      </div>
+
+      <!-------------------------------footer-------------------------------->
+      <footer>
+        <p class="copy-right-txt">Meowish&copy;2025. All rights reserved</p>
+      </footer>
+    </div>
+
+    <script type="module" src="script/main.js"></script>
+  </body>
+</html>

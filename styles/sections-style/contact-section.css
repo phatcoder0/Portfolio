@@ -1,0 +1,42 @@
+#contact-section{
+  margin-bottom: 70px;
+}
+
+#contact-section label{
+  font-size: var(--medium-font-size);
+  font-family: var(--font-family-heading);
+  color: var(--font-color-black3);
+}
+
+#contact-section input, textarea{
+  width: 100%;
+  color: var( --font-color-black4);
+  font-family: var(--font-family-body);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 8px 1px;
+  padding: 13px 10px;
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+
+}
+
+#contact-section textarea{
+  height: 7rem;
+}
+
+#contact-section input::placeholder, textarea::placeholder{
+  opacity: 0.7;
+}
+
+#contact-section .submit-button{
+  background-color: var(--button-background);
+  color: white;
+  font-weight: 500;
+  font-family: var(--font-family-body);
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 0;
+}

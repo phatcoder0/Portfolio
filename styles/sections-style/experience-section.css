@@ -1,0 +1,73 @@
+.experience-cards-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+/* Experience Card */
+.experience-cards-container .experience-card{
+  position: relative;
+  gap: 0.5rem;
+  max-height: 79.3px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 8px 1px;
+  font-family: var(--font-family-body);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.experience-cards-container .experience-card .details{
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  gap: 0.5rem;
+  padding: 0.5rem;
+  z-index: 2;
+}
+
+/* Experience Image */
+.experience-card .details .image{
+  width: 4.2rem;
+  height: 3.9rem;
+  max-width: 4.2rem;
+  max-height: 3.9rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 8px;
+}
+
+/* Experience Title */
+.experience-card .details .experience-title{
+  font-family: var(--font-family-heading);
+  font-weight: 400;
+  color:  var(--font-color-black1);
+  margin-bottom: 0.6px;
+}
+
+/* Experience yrs of experience */
+.experience-card .details .yrs-of-experience{
+  font-size: var(--small-font-size);
+  font-weight: 400;
+  color: var(--font-color-black4);
+}
+
+/* Experience Arrow icon */
+.experience-card .details .toggle-button{
+  position: absolute;
+  right: 0.5rem;
+  top: 45%;
+  max-width: 1rem;
+  max-height: 1rem;
+}
+
+/* Experience more details*/
+.experience-card .more-details{
+  display: flow;
+  font-size: var(--medium-font-size);
+  color: var(--font-color-black3);
+  padding: 0.7rem;
+  z-index: -0;
+}
+
