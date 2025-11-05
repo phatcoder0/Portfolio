@@ -42,7 +42,7 @@ export const techtoolsData = [
   { //techtools 9
     icon: 'figma icon.png', //Add your techtool-icon to the "images-and-icons/icons" folder and specify its filename here
     name: 'Figma',
-    mastery: 'Intermediate'
+    mastery: 'Beginner'
   },
   { //techtools 10
     icon: 'capcut-icon.png', //Add your techtool-icon to the "images-and-icons/icons" folder and specify its filename here
@@ -51,4 +51,5 @@ export const techtoolsData = [
   }
 
   // Feel free to add techtools
+
 ]
