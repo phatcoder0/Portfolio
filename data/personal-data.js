@@ -11,7 +11,7 @@ export const personalData = {
   serviceId: 'service_id', // Go to emailJS.com, sign up, and get your service-id then, paste here. 
   templateId: 'template_gqf06fp', // Go to emailJS.com, sign up, and get your template-id then, paste here. 
   facebookLink: 'https://www.facebook.com/e.bo.a.roi',
-  instagramLink: 'instagram.com/lxp_1606/',
+  instagramLink: 'https://www.instagram.com/lxp_1606',
   tiktokLink: 'https://phatcoder0.github.io/Portfolio/',
   aboutMe: [
             `I am Meowish, a creative Web Designer & Developer from the vibrant world of Cat World. My passion lies in crafting visually striking and highly functional websites that help you stand out in your job search.`,
@@ -20,3 +20,4 @@ export const personalData = {
           ],
 
 }
+
