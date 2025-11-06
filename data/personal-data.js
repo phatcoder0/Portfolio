@@ -14,11 +14,13 @@ export const personalData = {
   instagramLink: 'https://www.instagram.com/lxp_1606',
   tiktokLink: 'https://phatcoder0.github.io/Portfolio/',
   aboutMe: [
-            `I am Meowish, a creative Web Designer & Developer from the vibrant world of Cat World. My passion lies in crafting visually striking and highly functional websites that help you stand out in your job search.`,
+            `I am Phat , a web developer from the US. I enjoy making creative and useful websites that help people. My passion is designing sites that look good and work well.
+`,
 
-            `With over 2 years of experience, I specialize in blending aesthetics with seamless functionality, ensuring every project delivers an outstanding user experience.`
+            `I have more than 2 years of experience. I like to mix style and easy-to-use functions, so every website gives users a great experience.`
           ],
 
 }
+
 
 
